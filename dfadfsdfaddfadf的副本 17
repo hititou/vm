@@ -1,0 +1,26 @@
+commit 36472b74844cb7437b77af79f1aeb501c59382ee (origin/master)
+Author: hititou <276600506@qq.com>
+Date:   Tue Apr 23 18:40:17 2019 +0800
+
+    ddddddd:wq
+     and an empty message aborts the commit.
+
+ dfadfsdfaddfadf | 7 +++++++
+ 1 file changed, 7 insertions(+)
+HITITOU-MC0:vm hititou$ git commit
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+HITITOU-MC0:vm hititou$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 477 bytes | 477.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/hititou/vm.git
+   36472b7..2fe48d8  master -> master
+HITITOU-MC0:vm hititou$ git diff
