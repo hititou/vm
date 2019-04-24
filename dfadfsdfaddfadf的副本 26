@@ -1,15 +1,4 @@
-commit 36472b74844cb7437b77af79f1aeb501c59382ee (origin/master)
-Author: hititou <276600506@qq.com>
-Date:   Tue Apr 23 18:40:17 2019 +0800
 
-    ddddddd:wq
-     and an empty message aborts the commit.
-
- dfadfsdfaddfadf | 7 +++++++
- 1 file changed, 7 insertions(+)
-HITITOU-MC0:vm hititou$ git commit
-On branch master
-Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
